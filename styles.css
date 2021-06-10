@@ -1,0 +1,103 @@
+.logo{
+  width:2.5rem;
+  height:auto;
+  position: absolute;
+
+}
+
+#nav-bar{
+  position:relative;
+  top:0px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e19526;
+}
+
+.nav-list {
+  float: right;
+}
+
+.na-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+li a {
+      background-color: #cd737d;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #bc4451;
+
+}
+
+.nav-link{
+  color: white
+}
+
+
+.home-title{
+  padding:1rem;
+}
+
+.flex-container {
+  /* padding: 10rem; */
+  padding-top: 5%;
+
+}
+
+body {
+  background-color: tan;
+}
+
+.home{
+  text-align: center;
+}
+
+.about{
+  text-align: center;
+}
+
+.news{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: red;
+  }
+} */
+@media screen and (max-width: 992px) {
+  .video{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+  .flex-container {
+    /* display: flex;
+    padding: 0rem; */
+
+  }
+}
