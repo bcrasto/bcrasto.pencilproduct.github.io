@@ -52,7 +52,8 @@ li a:hover {
 
 .flex-container {
   /* padding: 10rem; */
-  padding-top: 5%;
+  padding: 5%;
+
 
 }
 
@@ -69,16 +70,10 @@ body {
 }
 
 .news{
-  text-align: center;
+  text-align:center;
   margin-top: 20px;
+  position: relative;
 }
-
-
-
-
-
-
-
 
 
 /* @media screen and (max-width: 992px) {
